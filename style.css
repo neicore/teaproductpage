@@ -23,6 +23,7 @@
     background: linear-gradient(0deg, #c8c8c8 10%, #fff 100%);
     border-bottom: 0 solid #fff;
     height: fit-content;
+    overflow: hidden;
 }
 
 .nav {
@@ -636,6 +637,14 @@ iframe {
     .text{
         margin-left: 20px;
         text-align: center;
+    }
+
+    .text>h1{
+        margin-right: 20px;
+    }
+
+    .text>p{
+        margin-right: 20px;
     }
     .showcase-bottom{
         margin-top: 0;
